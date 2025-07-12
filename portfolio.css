@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, p, a, li {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.portfolio-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.portfolio-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+.portfolio-item img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.portfolio-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.portfolio-buttons .btn {
+background-color: transparent;
+  border: 2px solid #22db68;
+  color: #002e48;
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.portfolio-buttons .btn:hover {
+  background-color: #22db68;
+}
+
